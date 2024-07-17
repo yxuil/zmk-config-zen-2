@@ -76,10 +76,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans        &kp GRAVE  &kp TILDE  &kp UNDER  &kp PIPE  &kp DOUBLE_QUOTES    &kp CARET  &kp HOME  &kp UP    &kp END    &kp RPAR  &kp BSPC
-&out OUT_USB  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR             &kp MINUS  &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH  &kp GRAVE
-&out OUT_BLE  &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT            &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC   &kp PIPE  &kp TILDE
-                                    &trans     &trans    &kp SPACE            &kp RET    &trans    &trans
+&trans        &kp GRAVE  &kp TILDE  &kp UNDER  &kp PIPE  &kp DOUBLE_QUOTES    &kp CARET  &kp HOME      &kp UP        &kp END        &kp RPAR  &kp BSPC
+&out OUT_USB  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR             &kp MINUS  &kp LEFT      &kp DOWN      &kp RIGHT      &kp BSLH  &kp GRAVE
+&out OUT_BLE  &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT            &kp UNDER  &kp RG(LEFT)  &kp RC(DOWN)  &kp RG(RIGHT)  &kp PIPE  &kp TILDE
+                                    &trans     &trans    &kp SPACE            &kp RET    &trans        &trans
             >;
         };
 
